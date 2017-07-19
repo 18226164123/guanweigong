@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ list-style:none; margin:0; padding:0; font-family:"微软雅黑";}
+/*头部图片导航开始*/
+.head-tu{
+	width:100%;
+	height:690px;
+	position:relative;
+	background:url(../imgs/da2.jpg);
+	}
+.cha-tu img{
+	width:405px;
+	height:621px;
+	position:relative;
+	
+	left:430px;
+	z-index:30;
+	}
+	
+.nav{
+	width:100%;
+	height:79px;
+	background:#161616;
+	position:absolute;
+	z-index:30;
+	top:621px;
+	}
+.nav img{
+	width:89px;
+	height:89px;
+	cursor:pointer;
+	float:left;
+	margin-left:439px;
+	}	
+.nav ul{
+	width:810px;
+	height:80px;
+	margin-left:100px;
+	float:left;
+	}
+.nav ul li{
+	width:200px;
+	height:80px;
+	font-size:18px;
+	margin-left:2px;
+	margin:30px auto;
+	float:left;
+	}
+a{
+	text-decoration:none;
+	color:#b6b6b6;
+	}
+/*头部图片导航结束*/
+/*文本宣传开始*/
+.top-text{
+	width:100%;
+	height:128px;
+	margin-top:85px;
+	text-align:center;
+	}	
+.top-frist{
+	width:210px;
+	height:40px;
+	font-family:"宋体";
+	font-size:30px;
+	margin:10px auto;
+	}
+.top-second{
+	width:610px;
+	height:37px;
+	color:rgb(169,169,169);
+	font-size:28px;
+	}
+.bottom-text{
+	width:100%;
+	height:132px;
+	text-align:center;
+	}
+.bottom-frist{
+	height:35px;
+	font-size:16px;
+	color:rgba(75,75,75,0.79);
+	line-height:30px;
+	}
+/*文本宣传结束*/
+/*蒙版图开始*/
+.donghua{
+	width:1350px;
+	height:864px;
+	margin:0 auto;
+	}
+.donghua-frist ul li{
+	width:310px;
+	height:775px;
+	float:left;
+	}
+.li-one{
+	width:310px;
+	height:775px;
+	cursor:pointer;
+	float:left;
+	opacity:0;
+	-webkit-transition: opacity .8s;
+	background:rgba(85,85,85,0.8);
+	position:relative;
+	z-index:10;
+	top:-805px;
+	}
+.li-one:hover{
+	opacity:1;
+	}
+/*蒙版图结束*/
+/*下拉图片开始*/
+.middle-frist{
+	width:1345px;
+	height:48px;
+	margin-left:230px;
+	}
+.middle-frist ul li{
+	width:105px;
+	height:30px;
+	color: #9b9b9b;
+	float:left;
+	text-align:center;
+	border:2px solid #CCC;
+	border-radius:20px;
+	padding-top:5px;
+	margin-left:20px;
+	}
+.middle-frist ul li:hover{
+	color:#333;
+	border:2px solid #333;
+	}
+.tu{
+	width:1345px;;
+	height:710px;
+	margin-left:250px;
+	}
+.tu span img{
+	width:330px;
+	height:330px;
+	float:left:
+	margin-left:2px;
+	margin-top:2px;
+	}
+
+/*下拉图片结束*/
+/*底部脚本开始*/
+.footer{
+	width:100%;
+	height:73px;
+	background:rgb(29,29,29);
+	float:left;
+	}
+.footer-frist{
+	width:477px;
+	height:17px;
+	color:#FFF;
+	font-weight:normal;
+	margin:0 auto;
+	line-height:22px;
+	font-size:13px;
+	}
+.yinyue{
+	cursor:pointer;
+	width:30px;
+	height:12px;
+	line-height:22px;
+	vertical-align:middle;
+	display:inline-block;
+	background:url(../imgs/111.png);
+	}
+/*底部脚本结束*/

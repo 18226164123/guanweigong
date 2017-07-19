@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ list-style:none; margin:0; padding:0; font-family:"微软雅黑";}
+/*头部图片导航开始*/
+.head-tu{
+	width:100%;
+	height:690px;
+	position:relative;
+	background:url(../imgs/da.jpg);
+	}
+.cha-tu img{
+	width:405px;
+	height:621px;
+	position:relative;
+	
+	left:430px;
+	z-index:30;
+	}
+	
+.nav{
+	width:100%;
+	height:79px;
+	background:#161616;
+	position:absolute;
+	z-index:30;
+	top:621px;
+	}
+.nav img{
+	width:89px;
+	height:89px;
+	cursor:pointer;
+	float:left;
+	margin-left:439px;
+	}	
+.nav ul{
+	width:810px;
+	height:80px;
+	margin-left:100px;
+	float:left;
+	}
+.nav ul li{
+	width:200px;
+	height:80px;
+	font-size:18px;
+	margin-left:2px;
+	margin:30px auto;
+	float:left;
+	}
+a{
+	text-decoration:none;
+	color:#b6b6b6;
+	}
+/*头部图片导航结束*/
+/*注册图和注册栏开始*/
+.zuo{
+	width:900px;
+	height:600px;
+	margin-left:272px;
+	float:left;
+	max-width:900px;
+	}
+.you{
+	width:440px;
+	height:580px;
+	max-width:440px;
+	color:#000;
+	float:left;
+	font-size:12px;
+	margin-left:5px;
+	margin-top:10px;
+	padding-top:10px;
+	background:url(../imgs1/5.jpg);
+	}
+.title{
+	width:96px;
+	height:31px;
+	font-size:16px;
+	color:#666;
+	margin-left:200px;
+	}
+input{
+	width:330px;
+	height:36px;
+	margin-top:10px;
+	margin-left:32px;
+	}
+.color{
+	width:20px;
+	color:#F00;
+	margin-left:10px;
+	}
+.infast{
+	width:330px;
+	height:102px;
+	}
+.btn{
+	width:130px;
+	height:44px;
+	color:#333;
+	cursor:pointer;
+	background:#8e8e8e
+	}
+/*注册图和注册栏结束*/
+/*下地址开始*/
+.site{
+	width:1200px;;
+	height:154px;
+	float:left;
+	margin-left:272px;
+	}
+.tap img{
+	width:1345px;
+	height:400px;
+	margin-top:30px;
+	float:left;
+	}
+.text{
+	font-size:14px;
+	line-height:3em;
+	font-weight:bold;
+	color:#666;
+	}
+.text-frist{
+	font-size:12px;
+	color: #666;
+	line-height: 2em;
+	}
+/*下地址结束*/
+/*底部脚本开始*/
+.footer{
+	width:100%;
+	height:73px;
+	background:rgb(29,29,29);
+	float:left;
+	margin-top:420px;
+	}
+.footer-frist{
+	width:477px;
+	height:17px;
+	color:#FFF;
+	font-weight:normal;
+	margin:0 auto;
+	line-height:22px;
+	font-size:13px;
+	}
+.yinyue{
+	cursor:pointer;
+	width:30px;
+	height:12px;
+	line-height:22px;
+	vertical-align:middle;
+	display:inline-block;
+	background:url(../imgs/111.png);
+	}
+/*底部脚本结束*/

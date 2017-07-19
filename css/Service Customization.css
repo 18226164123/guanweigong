@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ list-style:none; margin:0; padding:0; font-family:"微软雅黑";}
+/*头部图片导航开始*/
+.head-tu{
+	width:100%;
+	height:690px;
+	position:relative;
+	background:url(../imgs/da3.jpg);
+	}
+.cha-tu img{
+	width:405px;
+	height:621px;
+	position:relative;
+	
+	left:430px;
+	z-index:30;
+	}
+	
+.nav{
+	width:100%;
+	height:79px;
+	background:#161616;
+	position:absolute;
+	z-index:30;
+	top:621px;
+	}
+.nav img{
+	width:89px;
+	height:89px;
+	cursor:pointer;
+	float:left;
+	margin-left:439px;
+	}	
+.nav ul{
+	width:810px;
+	height:80px;
+	margin-left:100px;
+	float:left;
+	}
+.nav ul li{
+	width:200px;
+	height:80px;
+	font-size:18px;
+	margin-left:2px;
+	margin:30px auto;
+	float:left;
+	}
+a{
+	text-decoration:none;
+	color:#b6b6b6;
+	}
+/*头部图片导航结束*/
+/*内容开始*/
+.nav-tu{
+	width:650px;
+	height:120px;
+	float:left;
+	margin-top:20px;
+	margin-left:275px;
+	}
+.nav-tu2{
+	width:650px;
+	height:120px;
+	float:left;
+	margin-top:20px;
+	}
+.text{
+	width:1292px;
+	height:378px;
+	margin-top:5px;
+	}
+.text img{
+	width:648px;
+	height:339px;
+	float:left;
+	}
+.text-right{
+	width:642px;
+	height:356px;
+	float:left;
+	}
+.top{
+	width:217px;
+	height:24px;
+	margin:10px 30px;
+	font-size:18px;
+	color:#666;
+	}
+.middle{
+	width:56px;
+	height:36px;
+	font-size:14px;
+	margin-left:30px;
+	color:#666;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #D8D8D8;
+	}
+.second{
+	font-size:38px;
+	color:#555555;
+	text-align:justify;
+	margin:10px 30px;
+	font-family:"宋体";
+	}
+.base{
+	width:60px;
+	height:20px;
+	font-size:15px;
+	margin:25px 30px;
+	font-family: "微软雅黑","宋体";
+	color: #666;
+	}
+/*内容结束*/
+
+/*底部脚本开始*/
+.footer{
+	width:100%;
+	height:73px;
+	background:rgb(29,29,29);
+	float:left;
+	margin-top:1600px;
+	}
+.footer-frist{
+	width:477px;
+	height:17px;
+	color:#FFF;
+	font-weight:normal;
+	margin:0 auto;
+	line-height:22px;
+	font-size:13px;
+	}
+.yinyue{
+	cursor:pointer;
+	width:30px;
+	height:12px;
+	line-height:22px;
+	vertical-align:middle;
+	display:inline-block;
+	background:url(../imgs/111.png);
+	}
+/*底部脚本结束*/
